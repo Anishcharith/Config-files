@@ -51,6 +51,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vimwiki/vimwiki'
+Plugin 'xuhdev/vim-latex-live-preview'
 
 call vundle#end()
 filetype plugin indent on  
