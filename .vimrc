@@ -26,6 +26,7 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 set title
 set pastetoggle=<F2>
 set encoding=utf-8
+set grepprg=grep\ -nH\ $*
 let mapleader=','
 colorscheme badwolf
 
@@ -52,6 +53,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vimwiki/vimwiki'
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'lervag/vimtex'
 
 call vundle#end()
 filetype plugin indent on  
