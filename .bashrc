@@ -13,4 +13,4 @@ PS1='[\u@\h \W]\$ '
 if [ -f ~/.bash_powerline.sh  ]; then
     . ~/.bash_powerline.sh
 fi
-exec fish
+alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
