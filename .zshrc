@@ -63,6 +63,8 @@ plugins=(
   z
   zsh-autosuggestions
   vi-mode
+  zsh-syntax-highlighting
+  sudo
 )
 
 source $ZSH/oh-my-zsh.sh
