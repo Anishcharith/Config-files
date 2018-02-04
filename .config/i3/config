@@ -112,7 +112,7 @@ set $workspace7 "7: Boostnote "
 set $workspace5 "5: Chrome "
 set $workspace6 "6: Anki "
 set $workspace8 "8: Torrentz "
-set $workspace9 "9: Recipe "
+set $workspace9 "9: Log "
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
