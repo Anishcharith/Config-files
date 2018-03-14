@@ -54,6 +54,9 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vimwiki/vimwiki'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'lervag/vimtex'
+Plugin 'vitalk/vim-simple-todo'
+Plugin 'xolox/vim-notes'
+Plugin 'xolox/vim-misc'
 
 call vundle#end()
 filetype plugin indent on  
@@ -83,6 +86,10 @@ let g:SimplyFold_docstring_preview = 1
 "SimplyFold---------------------------------------------
 
 " Mappings ----------------------------------------------
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
