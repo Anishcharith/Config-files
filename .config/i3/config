@@ -231,6 +231,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Background
 
-exec feh --randomize --bg-fill ~/Pictures/Wallpapers/*
+#exec feh --randomize --bg-fill ~/Pictures/Wallpapers/*
+exec_always feh --bg-fill ~/Pictures/Wallpapers/potw1805a_ngc7331.jpg
 exec_always alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 
