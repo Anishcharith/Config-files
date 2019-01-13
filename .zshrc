@@ -98,3 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
+export EDITOR=vim
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib32
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib
