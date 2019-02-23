@@ -139,7 +139,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 #assign [class="Firefox"] $workspace2
 assign [class="Firefox"] workspace 2
-assign [class="Anki"] $workspace6
+#assign [class="Anki"] $workspace6
 assign [class="Boostnote"] $workspace7
 #assign [class="Google-chrome"] $workspace5
 assign [class="Google-chrome"] workspace 5
@@ -240,7 +240,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 #exec_always feh --randomize --bg-fill ~/Pictures/Wallpapers/*
 #exec_always feh --bg-fill ~/Pictures/Wallpapers/potw1805a_ngc7331.jpg
-exec_always feh --randomize --bg-fill ~/Pictures/naruto/naruto_sasuke.jpg
+exec_always feh --randomize --bg-fill ~/Pictures/alto.jpg
 #exec_always feh --randomize --bg-fill ~/Pictures/bg.jpg
 #exec_always feh --randomize --bg-fill ~/Pictures/naruto/muBsTEg.jpg
 exec_always alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
